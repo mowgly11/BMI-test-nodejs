@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMI Results</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <section class="main-section-res">
+    <div class="results">
+      <% if(result.toLowerCase() === "underweight") {%>
+      <div class="solutions">
+        <h1>Your are on <span style="color: yellow;"><%= result %></span></h1>
+      </div>
+      <% } else if(result.toLowerCase() === "normal range") {%>
+      <div class="solutions">
+        <h1>Your are on <span style="color: blue;"><%= result %></span></h1>
+      </div>
+      <% } else if(result.toLowerCase() === "overweight") {%>
+      <div class="solutions">
+        <h1>Your are on <span style="color: #ff4500;"><%= result %></span></h1>
+      </div>
+      <% } else if(result.toLowerCase() === "obesity") {%>
+      <div class="solutions">
+        <h1>Your are on <span style="color: #ff0000;"><%= result %></span></h1>
+      </div>
+      <% } else if(result.toLowerCase() === "severe obesity") {%>
+      <div class="solutions">
+        <h1>Your are on <span style="color: #800000;"><%= result %></span></h1>
+      </div>
+      <% } %>
+    </div>
+  </section>
+</body>
+
+</html>

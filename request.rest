@@ -1,0 +1,8 @@
+POST http://localhost:80/
+
+Content-Type: "application/json"
+
+{
+    "height": 180,
+    "weight": 89
+}
