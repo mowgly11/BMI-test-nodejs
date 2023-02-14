@@ -1,6 +1,6 @@
 BMI Test Website Template Using `NodeJs` and `EJS`.
 
-Design and Project made by: Osama.
+Design and Project made by: me
 
 Install All Dependencies: `npm install`
 
